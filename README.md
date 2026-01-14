@@ -1,17 +1,19 @@
 # Transaction CLI
 
-Simple command-line application built in Java to manage financial transactions.
+A simple command-line application written in Java to manage financial transactions.
 
 ## Features
-- Register transactions
-- List all transactions
-- Filter valid transactions
-- Calculate total amount
+- List transactions
+- Add new transactions
+- Calculate total value using Java Streams
+- Filter transactions by minimum value
 
-## Technologies
-- Java
+## Concepts applied
+- Object-Oriented Programming (OOP)
+- Java Collections (Map)
 - Java Streams
-- Map API
+- Layered architecture (Menu / Service / DataStore)
+- Basic dependency injection
 
 ## How to run
-Compile and run using your IDE or terminal.
+Compile and run the `Main` class.
